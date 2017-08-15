@@ -8,7 +8,7 @@ a{
   text-decoration: none;
 }
 img{
-  vertical-align: middle;
+  vertical-align: bottom;
   font-size: 0px;
 }
 html,body{
@@ -21,11 +21,11 @@ html,body{
 
 //公共样式
 .container{
-  padding: 0rem 1rem;
+  padding: 0rem 0.8rem;
 }
 p{
-  font-size: 0.8rem;
-  line-height: 1.3rem;
+  font-size: 0.65rem;
+  line-height: 1.2rem;
   text-align: justify;
   text-indent: 1.3rem;
 }
@@ -157,4 +157,84 @@ h3{
       }
     }
   }
+}
+
+
+/* 标题 */
+.title{
+  margin-top: 2rem;
+  position: relative;
+}
+.title .text{
+  font-size: 1rem;
+  line-height: 0rem;
+  text-align: center;
+  text-indent: 0rem;
+  color: #585757;
+}
+.title p .left,.title p .right{
+  content: "";
+  display: block;
+  width: 1.5rem;
+  height: 0.1rem;
+  background: #464445;
+  position: absolute;
+  top: -0.7rem;
+  left: 50%;
+}
+.title p .left{
+  margin-left: 2.7rem;
+  margin-left: 2.5rem;
+}
+.title p .right{
+  margin-left: -4rem;
+}
+.title span{
+  font-size: 0.7rem;
+  margin-top: 0.7rem;
+  display: block;
+}
+
+.bule_color{
+  color: #74C5BE;
+}
+/*index 的 p 标签*/
+.page_index p{
+  text-indent: 0rem;
+}
+
+
+/*hf_title*/
+.Hf_title{
+  margin-top: 2rem;
+}
+.Hf_title .text{
+  font-size: 1rem;
+  line-height: 0rem;
+  text-align: center;
+  text-indent: 0rem;
+  color: #585757;
+}
+.Hf_title p{
+  text-align: center;
+  width:100%;
+  padding:0;
+  text-indent: 0;
+}
+.Hf_title p span{
+  display: inline-block;
+}
+.Hf_title p .span_border{
+  content: "";
+  display: inline-block;
+  width: 1.5rem;
+  height: 0.1rem;
+  position: relative;
+  background: #464445;
+  top: -0.3rem;
+}
+.Hf_title span{
+  font-size: 0.7rem;
+  display: block;
+  text-align: center;
 }
