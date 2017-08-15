@@ -1,0 +1,84 @@
+/*复位样式*/
+body, a, textarea, input { font-family:SourceHanSans,Microsoft YaHei,"宋体", Verdana, Geneva, sans-serif; }
+html, body,div, dl, dt, dd, ul, ol, li, p, h1, h2, h3, h4, h5, h6, th, td, hr, blockquote { padding: 0; margin: 0; }
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+img{
+  vertical-align: middle;
+  font-size: 0px;
+}
+html,body{
+  //font-size: 10px;   /*根*/
+  font-size: 20px;   /*根*/
+  max-width: 640px;
+}
+
+//公共样式
+.main .class_test{width: 100%;height: 200px;background: pink;}
+.main h3{font-size: 0.8rem;font-family: "宋体";font-weight: normal;color: #6e6d6d;margin-bottom: 0.2rem;text-align: center;}//创始人
+.main h5{font-size: 0.5rem;font-weight: normal;color: #6e6d6d;margin-bottom: 0.95rem;text-align: center;}//英文
+.main p{font-size: 0.5rem;font-weight: normal;color: #b4b4b5;font-family: "微软雅黑";line-height: 1.325rem;text-align: center;}
+.main .blackBar{color: black;font-weight: bold;}
+
+    
+//index样式
+.head{display: flex;//头部
+    img{height: 3.075rem;
+        &:nth-child(1){width: 2.225rem;}
+        &:nth-child(2){width:13.625rem}
+        &:nth-child(3){width:2.15rem}
+    }
+}
+//轮播
+.lunbo{display: flex;flex-direction: column;background: #CCCCCC;height: 10rem;
+    img{width: 100%;height: 10rem;}
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    width: 100%;
+    height: 5rem;
+        
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+//content1
+.container01{
+    h3{margin-top: 1.05rem;}
+    h5{}
+    .class_img{
+        img{width: 100%;}
+    }
+    .class_p{padding: 0.675rem 0.75rem;
+        p{}
+    }
+}
+//container02
+.container02{
+    h3{};
+    h5{};
+    .class_img{width: 7.325rem;min-height: 11.625rem;
+        img{width: 7.325rem;}
+    }
+    .class_p{width: 8.65rem;min-height: 7.5rem;}
+}
